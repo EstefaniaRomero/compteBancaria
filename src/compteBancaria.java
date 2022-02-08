@@ -45,7 +45,7 @@ El software es finalitza si l’usuari escull no fer més operacions.*/
 
     private static void calculateBalance(int balance) {
 
-        while (true) {
+
             if (balance <= (balanceUser * 2)) {
 
                 balanceUser = balanceUser + balance - (balance * 0.05);
@@ -54,8 +54,8 @@ El software es finalitza si l’usuari escull no fer més operacions.*/
 
             } else System.out.println("No pots ingressar més del doble del teu saldo ");
 
-        }
-        
+
+
 
     }
 
